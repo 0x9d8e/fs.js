@@ -45,7 +45,7 @@ var fs = {
     for(var i = 0; i < elems.length; i++) {
       var elem = elems[i];
 
-      this.data[elem.dataset.path] = {init: false, elem: elem, data: null, type: elem.dataset.type};
+      this.data[elem.dataset.path] = {id: elem.dataset.path, init: false, elem: elem, data: null, type: elem.dataset.type};
     }
   }
   
